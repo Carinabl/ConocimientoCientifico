@@ -27,7 +27,7 @@ public class ArticuloConReferato {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private Long id;
     @Basic
-    private String lugarr;
+    private String lugar;
     @Temporal(TemporalType.DATE)
     private Date fecha;
     private String nombreArticulo;
