@@ -27,13 +27,13 @@ public class ArticuloConReferatoService implements IArticuloConReferato {
 
     @Override
     public void deleteArticuloConReferato(Long id) {
-        ArticuloConReferatoR.deleteById(id);
+        articuloConReferatoR.deleteById(id);
     }
 
     @Override
     public ArticuloConReferato buscarArticuloConReferato(long id) {
-         ArticuloConReferato ArticuloConReferatoBuscado = ArticuloConReferatoR.findById(id).orElse(null);// aca deberia implemenarse una logica para devolver algun mensaje
-        return ArticuloConReferatoBuscado;
+         ArticuloConReferato articuloConReferato = articuloConReferatoR.findById(id).orElse(null);// aca deberia implemenarse una logica para devolver algun mensaje
+        return articuloConReferato;
     }
   
 }
