@@ -2,11 +2,13 @@ package com.Grupo2.ConocimientoCientifico.Service;
 
 import com.Grupo2.ConocimientoCientifico.Modelo.ArticuloConReferato;
 
+import java.util.List;
+
 public interface IArticuloConReferato {
 
     public List<ArticuloConReferato> getArticuloConReferato();
-    public void saveOferta(ArticuloConReferato of);
-    public void deleteOferta(Long id);
-    public ArticuloConReferato buscarOferta(long id);
+    public void saveArticuloConReferato(ArticuloConReferato of);
+    public void deleteArticuloConReferato(Long id);
+    public ArticuloConReferato buscarArticuloConReferato(long id);
 
 } 

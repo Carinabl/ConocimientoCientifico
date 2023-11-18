@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 import com.Grupo2.ConocimientoCientifico.Modelo.ArticuloConReferato;
 import com.Grupo2.ConocimientoCientifico.Repository.ArticuloConReferatoRepository;
 
+import java.util.List;
+
 @Service
 public class ArticuloConReferatoService implements IArticuloConReferato {
     
