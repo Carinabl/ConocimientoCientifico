@@ -28,6 +28,7 @@ public class RegistroPropiedadIntelectual {
     private String modelosDeUtilidad;
     private String modelosIndustriales;
     private String nombrePropiedad;
+    private String lugar;
     private String patenteDeInvencion;
     private String titularPropiedad;
 
