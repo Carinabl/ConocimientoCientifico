@@ -1,6 +1,6 @@
 package com.Grupo2.ConocimientoCientifico.Modelo;
 
-import java.sql.Date;
+
 import jakarta.persistence.Basic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,7 +28,6 @@ public class RegistroPropiedadIntelectual {
     private String modelosDeUtilidad;
     private String modelosIndustriales;
     private String nombrePropiedad;
-    private String lugar;
     private String patenteDeInvencion;
     private String titularPropiedad;
 
