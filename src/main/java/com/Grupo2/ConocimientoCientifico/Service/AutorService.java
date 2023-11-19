@@ -1,12 +1,13 @@
 package com.Grupo2.ConocimientoCientifico.Service;
 
-
 import com.Grupo2.ConocimientoCientifico.Modelo.Autor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.Grupo2.ConocimientoCientifico.Repository.AutorRepository;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
+
 @Service
 public class AutorService implements IAutorService{
     @Autowired
