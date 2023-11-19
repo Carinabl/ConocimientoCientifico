@@ -55,7 +55,7 @@ public class CertificadoAptitudTecnicaController {
         certificadoAT.setNumCat(nuevoNumCat);
         certificadoAT.setTelefono(nuevoTelefono);
         certificadoAT.setTitular(nuevoTitular);
-        
+
         certificadoATI.saveCertificadoAptitudTecnica(certificadoAT);
 
         return certificadoAT;
