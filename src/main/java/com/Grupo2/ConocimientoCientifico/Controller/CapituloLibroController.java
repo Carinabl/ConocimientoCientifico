@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("autor")
+@RequestMapping("capituloLibro")
 public class CapituloLibroController {
     @Autowired
     private ICapituloLibroService capituloLibroI;

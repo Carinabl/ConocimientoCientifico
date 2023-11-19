@@ -30,7 +30,7 @@ public class CertificadoAptitudTecnica {
     private String denominacionComercial;
     private String direccion;
     private String email;
-    private int numCat;
+    private String numCat;
     private String telefono;
     private String titular;
 }
