@@ -26,11 +26,6 @@ public class CapituloLibroService implements ICapituloLibroService {
     }
 
     @Override
-    public void saveCApituloLibro(CapituloLibro of) {
-        capituloLibroR.save(of);
-    }
-
-    @Override
     public void deleteCapituloLibro(Long id) {
         capituloLibroR.deleteById(id);
     }
